@@ -1,8 +1,12 @@
 /* -----------GENERAL----------- */
-* {
+body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: black;
+}
+h1 {
+  font-size: 3.5em;
+  font-weight: 700;
 }
 .wrapper_80 {
   width: 80%;
@@ -22,7 +26,7 @@
 }
 /* -----------/GENERAL----------- */
 /* -----------HEADER---------- */
-.header_top {
+.header_top, .header_bottom {
   background-color: lightgrey;  /* debug */
 }
 .header_top {
@@ -39,6 +43,15 @@
 }
 .header_top a:hover{
   color: #006AFF;
+}
+.header_bottom {
+  min-height: 400px;
+  padding: 60px 0;
+  color: white;
+  background-image: url("../img/sfondo-mare.svg");
+  background-repeat: no-repeat;
+background-size: contain;
+background-position: left;
 }
 /* -----------HEADER---------- */
 @media screen and (min-width: 768px) and (max-width: 1200px) {
