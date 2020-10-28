@@ -2,9 +2,15 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- VIEWPORT -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- MY-style.css -->
     <link rel="stylesheet" href="css/style.css">
     <title>Digital Ocean</title>
   </head>
@@ -14,24 +20,29 @@
         <div class="wrapper_80"> <!-- CONTENITORE 80 %-->
           <div class="container-fluid">
             <div class="row">
-              <div class="text-left col-lg-3">
+              <div class="text-left col-xs-6 col-sm 3 col-lg-3">
                 <a href="#"><img src="img/logo.webp" alt="logo digital ocean"></a>
               </div>
-              <div class="col-lg-5">
-                <ul class="list-inline hidden-xs">
+              <div class="col-xs-5 col-sm-6  col-lg-5">
+                <ul class="list-inline visible-lg-inline-block">
                   <li><a href="#">Product<i class="fas fa-chevron-down"></i></a></li>
                   <li><a href="#">Customers</a></li>
                   <li><a href="#">Community<i class="fas fa-chevron-down"></i></a></li>
                   <li><a href="#">Pricing</a></li>
                 </ul>
               </div>
-              <div class=" text-right col-lg-4">
-                <ul class="list-inline hidden-xs">
+              <div class=" text-right col-xs-6 col-sm-6  col-lg-4">
+                <ul class="list-inline visible-lg-inline-block">
                   <li><a href="#">Doc</a></li>
                   <li><a href="#">Support<i class="fas fa-chevron-down"></i></a></li>
                   <li><a href="#">Login</a></li>
-                  <li><a class="btn btn-default btn_whiteblue" href="#" role="button">Sign Up</a></li>
+                  <li><button class="btn btn-default btn_whiteblue" type="submit">Sign Up</button></li>
                 </ul>
+                <div class="hidden-lg">
+                  <a href="#">
+                  <i id="hambuger_icon" class="fas fa-bars"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
