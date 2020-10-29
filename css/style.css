@@ -11,6 +11,7 @@ h1 {
 h2 {
   font-size: 2em;
   font-weight: 700;
+  color: #031B4E;
 }
 #blue {
   color: #006AFF;
@@ -129,6 +130,7 @@ h2 {
 }
 .main_deploy {
   color: #5b6987;
+  padding:  30px 0;
 }
 .main_deploy li {
   list-style: none;
@@ -142,7 +144,7 @@ h2 {
   font-weight: 700;
 }
 .main_deploy h2, .main_deploy h4 {
-  color: black;
+  color: #031B4E;
 }
 .padding_bottom {
   padding-bottom: 15px;
@@ -150,7 +152,30 @@ h2 {
 .main_deploy_right div {
 height: 170px;
 }
-
+.main_carousel_select {
+  padding-top: 15px;
+  background-color: rgb(243, 245, 249);
+}
+.main_carousel_select img {
+  width: 40%;
+  display: inline-block;
+  margin: auto;
+}
+.glyphicon {
+  width:  30px;
+  padding: 30px;
+  cursor: pointer;
+}
+.glyphicon-chevron-left {
+  color: #5b6987;
+}
+.glyphicon-chevron-right {
+  color: #031B4E;
+}
+.fa-circle {
+  color: #0069ff;
+  cursor: pointer;
+}
 /* -----------/MAIN----------- */
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
