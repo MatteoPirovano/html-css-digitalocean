@@ -140,6 +140,13 @@ h2 {
 .main_deploy h4 {
   font-weight: 700;
 }
+.padding_bottom {
+  padding-bottom: 15px;
+}
+.main_deploy_right div {
+  height: 170px;
+}
+
 /* -----------/MAIN----------- */
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
