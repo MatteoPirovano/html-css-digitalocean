@@ -100,9 +100,23 @@ h2 {
   min-height: 200px;
   background-color: rgb(243, 245, 249);
 }
+.main_logo_top h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #5b6987;
+  padding: 15px 0;
+}
 .main_logo_top img {
   height: 80px;
   width: 100%;
+}
+.main_logo_top a {
+  width: 100%;
+  display: inline-block;
+  padding: 15px 0;
+  text-decoration: none;
+  color: #006AFF;
+  text-align: center;
 }
 .main_logo_top [class*='col-']:first-child {
   padding-left: 0;
@@ -131,6 +145,10 @@ h2 {
   #hambuger_icon:hover {
     color: #006AFF;
   }
+  .main_logo_top img {
+    height: 70px;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 767px) {
   h1 {
@@ -154,5 +172,9 @@ h2 {
   }
   #hambuger_icon:hover {
     color: #006AFF;
+  }
+  .main_logo_top img {
+    height: 150px;
+    width: 100%;
   }
 }
