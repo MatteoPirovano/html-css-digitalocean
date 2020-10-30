@@ -192,7 +192,6 @@ height: 170px;
   padding-top: 30px;
 }
 .rockerbox .row {
-  width: 100%;
   background-color: #FFFFFF;
   margin: auto;
 }
@@ -200,15 +199,28 @@ height: 170px;
   color:#0069ff;
   text-decoration: none;
 }
-.rockerbox .fa-circle {
-  padding-top: 15px;
+#circles {
+  padding: 15px 0;
 }
 /* -----------/MAIN----------- */
 
 /* -----------FOOTER----------- */
 .footer_top {
-  height: 150px;
-background: linear-gradient(to bottom, #3333ff -40%, #000066 30%);
+background-color: #006AFF;
+}
+.footer_top h2 {
+  padding: 15px;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+}
+.footer_top .btn {
+  margin-bottom: 30px;
+  color: #006AFF;
+  background-color: white;
+}
+.footer_top .btn:hover {
+  background-color: rgba(255,255, 255, 0.8);
 }
 .footer_bottom{
   height: 150px;
