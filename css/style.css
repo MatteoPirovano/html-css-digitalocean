@@ -2,7 +2,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  color: black;
+  color: #5b6987;
 }
 h1 {
   font-size: 3.5em;
@@ -11,6 +11,9 @@ h1 {
 h2 {
   font-size: 2em;
   font-weight: 700;
+  color: #031B4E;
+}
+h3, h4, h5, h6{
   color: #031B4E;
 }
 #blue {
@@ -107,7 +110,6 @@ h2 {
 .main_logo_top h5 {
   text-transform: uppercase;
   font-weight: 700;
-  color: #5b6987;
   padding: 15px 0;
 }
 .main_logo_top img {
@@ -183,6 +185,24 @@ height: 170px;
 .features .row div {
   min-height: 100px;
 }
+.rockerbox {
+  background-color: rgb(243, 245, 249);
+}
+.rockerbox img{
+  padding-top: 30px;
+}
+.rockerbox .row {
+  width: 100%;
+  background-color: #FFFFFF;
+  margin: auto;
+}
+.rockerbox a {
+  color:#0069ff;
+  text-decoration: none;
+}
+.rockerbox .fa-circle {
+  padding-top: 15px;
+}
 /* -----------/MAIN----------- */
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -190,7 +210,7 @@ height: 170px;
     font-size: 2.5em;
     font-weight: 700;
   }
-  h2 {
+  h2, h3, h4, h5, h6 {
     font-size: 1.5em;
     font-weight: 700;
   }
@@ -221,7 +241,7 @@ height: 170px;
     font-size: 2.5em;
     font-weight: 700;
   }
-  h2 {
+  h2, h3, h4, h5, h6 {
     font-size: 1.5em;
     font-weight: 700;
   }
@@ -245,7 +265,6 @@ height: 170px;
   }
   .main_deploy {
     font-size: 1.5em;
-
   }
   .main_deploy_right div {
   height: 100%;
