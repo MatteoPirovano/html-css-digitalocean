@@ -41,7 +41,7 @@ h2 {
 }
 .btn_white {
   width: 100%;
-  margin-top: 15px;
+  margin-top: 30px;
   border-color: #FFFFFF;
 }
 /* -----------/GENERAL----------- */
@@ -154,6 +154,7 @@ height: 170px;
 }
 .main_carousel_select {
   padding-top: 15px;
+  padding-bottom: 15px;
   background-color: rgb(243, 245, 249);
 }
 .main_carousel_select img {
@@ -175,6 +176,12 @@ height: 170px;
 .fa-circle {
   color: #0069ff;
   cursor: pointer;
+}
+.features {
+  padding: 30px 0;
+}
+.features .row div {
+  min-height: 100px;
 }
 /* -----------/MAIN----------- */
 
