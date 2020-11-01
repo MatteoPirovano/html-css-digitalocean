@@ -185,6 +185,23 @@ height: 170px;
 .features .row div {
   min-height: 100px;
 }
+.service {
+  height: 200px;
+  background: linear-gradient(to top, #3333ff -40%, #000066 30%);
+}
+.row_line {
+  border-bottom: 1px solid white;
+}
+.row_line span {
+  display: inline-block;
+  text-transform: uppercase;
+}
+.row_line p {
+  display: inline-block;
+}
+.row_line a {
+  display: inline-block;
+  }
 .rockerbox {
   background-color: rgb(243, 245, 249);
 }
@@ -224,7 +241,7 @@ background-color: #006AFF;
 }
 .footer_bottom{
   height: 150px;
-background: linear-gradient(to top, #3333ff -40%, #000066 30%);
+ background: linear-gradient(to top, #3333ff -40%, #000066 30%);
 }
 /* -----------/FOOTER----------- */
 
