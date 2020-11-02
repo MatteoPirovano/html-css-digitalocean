@@ -302,6 +302,9 @@ cursor: pointer;
   .main_deploy_right div {
   height: 270px;
   }
+  .footer_bottom .col-sm-6 {
+    padding-top: 15px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -348,5 +351,8 @@ cursor: pointer;
   }
   .main_deploy li {
     margin-left: 0;
+  }
+  .footer_bottom .col-xs-12{
+    padding-top: 15px;
   }
 }
