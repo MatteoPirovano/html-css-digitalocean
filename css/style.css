@@ -51,9 +51,14 @@ h3, h4, h5, h6{
 
 /* -----------HEADER---------- */
 .header_top {
+  position: fixed;
+  left: 0;
+  top: 0;
   width: 100%;
   height: 70px;
   line-height: 70px;
+  background-color: white;
+  z-index: 3;
 }
 .header_top img {
   height: 30px;
@@ -314,6 +319,9 @@ cursor: pointer;
   .service .row_line {
     margin-top: 10px;
   }
+  .rockerbox img{
+    height: 80px;
+  }
   .footer_bottom .col-sm-6 {
     padding-top: 15px;
   }
@@ -328,13 +336,16 @@ cursor: pointer;
     font-size: 1.5em;
     font-weight: 700;
   }
+  .header_top {
+    font-size: 0.7em
+  }
   .header_bottom {
     width: 100%;
     min-height: 900px;
     padding-top: 50px;
   }
   .header_bottom_left {
-    height: 300px;
+    height: 420px;
   }
   #hambuger_icon {
     font-size: 20px;
@@ -366,6 +377,9 @@ cursor: pointer;
   }
   .service .row_line {
     margin-top: 10px;
+  }
+  .rockerbox img{
+    height: 65px;
   }
   .footer_bottom .col-xs-12{
     padding-top: 15px;
